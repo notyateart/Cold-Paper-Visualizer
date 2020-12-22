@@ -6,20 +6,20 @@
 
 ---
 
-## Requirements
-- [Processing](https://processing.org/)
-- [Processing Sound](https://github.com/processing/processing-sound) (available via Processing Contribution Manager)
-
----
-
 ## What does it do?
 
 This Processing App is generating Hexagons based on the music playing. You can control how it looks with your keyboard. There are multiple options for color, size and display type which can create about 90 different styles.
 
 ---
 
+## Requirements
+- [Processing](https://processing.org/)
+- [Processing Sound](https://github.com/processing/processing-sound) (available via Processing Contribution Manager)
+
+---
+
 ## Adding your own music
-Put Audio files (wav) into the data folder. Then open [keys.pde](https://github.com/meisterhauns/Cold-Paper-Visualizer/blob/master/main/keys.pde) and enter the correct data like so:
+Put Audio files (wav) into the [data folder](https://github.com/meisterhauns/Cold-Paper-Visualizer/tree/master/main/data). Then open [keys.pde](https://github.com/meisterhauns/Cold-Paper-Visualizer/blob/master/main/keys.pde) and enter the correct data like so:
 
 >if ( key == '1' ) { loadSong ( "TRACK.WAV", BPM, "TITLE" ); showChanges = true; }
 
