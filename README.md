@@ -14,6 +14,16 @@ This Processing App is generating Hexagons based on the music playing. You can c
 
 <br>
 
+## Why?
+
+This project had one objective:
+> Develop any kind of rule-based representation, which deals with a grand idea and/or an important person (to you) in an artistic way.
+
+One important person that came into my mind was myself. I create music as a hobby and have my own label [Cold Paper](https://coldpaper.net). If you had a quick look you'll notice that the logo for Cold Paper is a simplified Snowflake, or geometrically speaking a hexagon.
+So basically the hexagon and the 6 colors were the foundation of this project.
+
+<br>
+
 ## Requirements
 - [Processing](https://processing.org/)
 - [Processing Sound](https://github.com/processing/processing-sound) (available via Processing Contribution Manager)
@@ -31,10 +41,15 @@ Here's an example:
 ```Processing 
 if ( key == '1' ) { loadSong( "track1.wav", 116, "Athmospear - A Journey into the Sky" ); showChanges = true; }
 ```
+BPM is required for the Automatic Color Circle Mode and can be set to any int if it's not needed.
 
 <br>
 
 ## Controls
+
+I tried assigning logical keys while having them in one row. So some make sense (R - Random, U - hUge), others not so much (W - Timeline).
+
+<br>
 
 <table>
 <tr><td><strong>Audio:</strong></td></tr>
