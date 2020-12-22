@@ -4,17 +4,29 @@
 
 ![Audio Visualizer in Action](https://github.com/meisterhauns/Cold-Paper-Visualizer/blob/master/main/pngs/E.png)
 
+---
+
 ## Requirements
 - [Processing](https://processing.org/)
 - [Processing Sound](https://github.com/processing/processing-sound) (available via Processing Contribution Manager)
 
+---
+
 ## What does it do?
+
+This Processing App is generating Hexagons based on the music playing. You can control how it looks with your keyboard. There are multiple options for color, size and display type which can create about 90 different styles.
+
+---
+
+## Adding your own music
 Put Audio files (wav) into the data folder. Then open [keys.pde](https://github.com/meisterhauns/Cold-Paper-Visualizer/blob/master/main/keys.pde) and enter the correct data like so:
 
 >if ( key == '1' ) { loadSong ( "TRACK.WAV", BPM, "TITLE" ); showChanges = true; }
 
 Here's an example:
 >if ( key == '1' ) { loadSong( "track1.wav", 116, "Athmospear - A Journey into the Sky" ); showChanges = true; }
+
+---
 
 ## Controls
 
@@ -26,5 +38,7 @@ Here's an example:
 * [+ & -]\: change color (if color selection is set to single)
 * [r, t, z, u, i]\: hex size generator selection
 * [#]\: show info in the app
+
+---
 
 ###### view on GitHub: https://github.com/meisterhauns/Cold-Paper-Visualizer
