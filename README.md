@@ -19,7 +19,7 @@ This Processing App is generating Hexagons based on the music playing. You can c
 This project had one objective:
 > Develop any kind of rule-based representation, which deals with a grand idea and/or an important person (to you) in an artistic way.
 
-One important person that came into my mind was myself. I create music as a hobby and have my own label [Cold Paper](https://coldpaper.net). If you had a quick look you'll notice that the logo for Cold Paper is a simplified Snowflake, or geometrically speaking a hexagon.
+One important person that came into my mind was myself. I create music as a hobby and have my own label [Cold Paper](https://coldpaper.net). If you had a quick look you'll notice that the logo for Cold Paper is a simplified Snowflake, or geometrically speaking, a hexagon.
 So basically the hexagon and the 6 colors were the foundation of this project.
 
 <br>
