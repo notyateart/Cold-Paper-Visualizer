@@ -23,10 +23,14 @@ This Processing App is generating Hexagons based on the music playing. You can c
 ## Adding your own music
 Put Audio files (wav) into the [data folder](https://github.com/meisterhauns/Cold-Paper-Visualizer/tree/master/main/data). Then open [keys.pde](https://github.com/meisterhauns/Cold-Paper-Visualizer/blob/master/main/keys.pde) and enter the correct data like so:
 
-```{Processing} {if ( key == '1' ) { loadSong ( "TRACK.WAV", BPM, "TITLE" ); showChanges = true; }}}```
+```Processing
+if ( key == '1' ) { loadSong ( "TRACK.WAV", BPM, "TITLE" ); showChanges = true; }
+```
 
 Here's an example:
-```{Processing} {if ( key == '1' ) { loadSong( "track1.wav", 116, "Athmospear - A Journey into the Sky" ); showChanges = true; }}```
+```Processing 
+if ( key == '1' ) { loadSong( "track1.wav", 116, "Athmospear - A Journey into the Sky" ); showChanges = true; }
+```
 
 <br>
 
