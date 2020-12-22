@@ -2,6 +2,8 @@
 
 > Designing with Code | Audio Visualizer
 
+![Audio Visualizer in Action](https://github.com/meisterhauns/Cold-Paper-Visualizer/blob/master/main/pngs/E.png)
+
 ## Requirements
 - [Processing](https://processing.org/)
 - [Processing Sound](https://github.com/processing/processing-sound) (available via Processing Contribution Manager)
